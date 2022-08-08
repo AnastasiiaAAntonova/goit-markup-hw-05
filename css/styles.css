@@ -285,7 +285,25 @@ body {
 }
 
 .works-item {
+	position: relative;
 	width: 370px;
+}
+
+.works-subtitle {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	width: 370px;
+	height: 70px;
+	padding-top: 27px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* ----------TEAM---------- */
@@ -546,6 +564,7 @@ body {
 }
 
 .portfolio-examples-link {
+	position: relative;
 	display: block;
 	color: currentColor;
 
@@ -584,4 +603,18 @@ body {
 	border-left: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
+}
+
+.portfolio-examples-description {
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	width: 370px;
+	height: 294px;
+	padding: 63px 24px;
+	font-size: 18px;
+	line-height: 1.56;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background-color: rgba(33, 150, 243, 0.9);
 }
